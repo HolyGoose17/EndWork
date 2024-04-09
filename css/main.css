@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-konstraktRegular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.open-sans-konstraktSemiBold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.open-sans-konstraktBold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.open-sans-konstraktExtraBold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.firstPage{
+    background-image: url(../img/bg-first.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.textTitle{
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    line-height: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.textSubtitle{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.scroll{
+    font-size: 11px;
+    letter-spacing: 0.34em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 70px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.topMenuLogo{
+    margin-bottom: 60px;
+}
+
+.topMenuWrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.topMenuLogo {
+    padding: 25px 5px;
+}
+
+.nav{
+    font-size: 12px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    color: #48555b;
+    text-transform: uppercase;
+    /* max-width: 440px; */
+    flex-basis: 440px;
+}
+
+.nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav li{
+    padding: 25px 5px;
+}
+
+.nav a:hover,
+.active{
+    color: #00a4e5;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+.ourStory {
+    margin-bottom: 120px;
+}
+
+.ourStoryTitle {
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #48555b;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.ourStoryTitle::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ourStorySubTitle {
+    display: flex;
+}
+.left {
+    padding: 10px;
+}
+.leftTitle {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    margin-bottom: 30px;
+    padding-right: 45px;
+}
+.runPageKonstruct {
+    letter-spacing: 0.01em;
+    color: #16ace8;
+}
+.leftText {
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    padding-right: 45px;    
+}
+.right {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+.card {
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-transform: uppercase;
+    width: 140px;
+    height: 224px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.card1 {
+    background-image: url(../img/Bitmap\(1\).jpg);
+}
+.card2 {
+    background-image: url(../img/Bitmap\ \(2\).jpg);
+}
+.card3 {
+    background-image: url(../img/Bitmap\ \(3\).jpg);
+}
+.ourcapabilities {
+    margin-bottom: 115px;
+}
+
+.capabilitiesHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.capabilitiesHeaderTitle {
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    color: #48555b;
+    flex-basis: 250px;
+    text-transform: uppercase;
+    position: relative;
+}
+.capabilitiesHeaderTitle::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    transform: translateX(-50%);
+
+}
+.capabilitiesHeaderText {
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+    flex-basis: 410px;
+}
+.capabilitiesHeaderBtn {
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    line-height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.capabilitiesCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item {
+    width: 295px;
+    height: 330px;
+    border: 1px solid #e6e6e6;
+    padding: 40px 20px;
+}
+.item img{
+    margin-bottom: 25px;
+}
+/* .item1 {
+} */
+.title {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #48555b;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.text{
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+/* .item2 {
+} */
+/* .item3 {
+} */
+.touch {
+    background-image: url(../img/bg-last.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 bottom;
+}
+.touchitem {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.touchitemTitle {
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #48555b;
+    margin-bottom: 35px;
+}
+.touchitembtn {
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    line-height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.sign {
+    background-color: #171819;
+    width: 100%;
+    height: 100px;
+    /* margin: 30px; */
+    display: flex;
+    justify-content: center;
+}
+.signText {
+    width: 218px;
+    height: 30px;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    margin: 35px;
+}
+.signbtn {
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    display: flex;
+    font-display: column;
+    justify-content: flex-start;
+    margin: 30px;
+
+}
+.signfield {
+    background-color: #fff;
+    width: 250px;
+    height: 40px;
+    /* margin: 30px; */
+    text-align: left;
+    padding: 10px;
+}
+.signinput {
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    background-color: #00A4E5;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
